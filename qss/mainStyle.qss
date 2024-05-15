@@ -1,0 +1,189 @@
+/*水平Slider*/
+QSlider::groove:horizontal{
+    border:0px solid #bbb;
+}
+
+/* 1.滑块划过的区域*/
+QSlider::sub-page:horizontal{
+    /*背景色*/
+    background: #d2a08e;
+    /*外环圆角*/
+    border-radius: 4px;
+    /*上遮挡区域*/
+    margin-top: 2px;
+    /*下遮挡区域*/
+    margin-bottom: 2px;
+}
+
+/* 2.未划过区域*/
+QSlider::add-page:horizontal{
+    /*背景色*/
+    background: #debaad;
+    /*外环圆角*/
+    border-radius: 2px;
+    /*上遮挡区域*/
+    margin-top: 4px;
+    /*下遮挡区域*/
+    margin-bottom: 4px;
+}
+
+/* 3.静置的滑块*/
+QSlider::handle:horizontal{
+    /*背景色*/
+    background: #e6e6e6;
+    /*滑块宽度*/
+    width: 14px;
+    /*滑块边框*/
+    border: 1px solid #adadad;
+    /*外环圆角*/
+    border-radius: 7px;
+}
+
+/* 4.交互的滑块*/
+QSlider::handle:horizontal:hover{
+    /*背景色*/
+    background: #b0b0b0;
+    /*滑块宽度*/
+    width: 14px;
+    /*滑块边框*/
+    border: 1px solid #adadad;
+    /*外环圆角*/
+    border-radius: 7px;
+}
+
+/*竖直滑动条*/
+QSlider::groove:vertical{
+    border:0px solid #bbb;
+}
+
+/* 1.滑块划过的区域*/
+QSlider::sub-page:vertical{
+    /*背景色*/
+    background: #ffffff;
+    /*外环圆角*/
+    border-radius: 3px;
+    /*上遮挡区域*/
+    margin-left: 4px;
+    /*下遮挡区域*/
+    margin-right: 4px;
+}
+
+/* 2.未划过区域*/
+QSlider::add-page:vertical{
+    /*背景色*/
+    background: #A38242;
+    /*外环圆角*/
+    border-radius: 3px;
+    /*上遮挡区域*/
+    margin-left: 4px;
+    /*下遮挡区域*/
+    margin-right: 4px;
+}
+
+/* 3.静置的滑块*/
+QSlider::handle:vertical{
+    /*背景色*/
+    background: #e6e6e6;
+    /*滑块宽度*/
+    height: 14px;
+    /*滑块边框*/
+    border: 1px solid #adadad;
+    /*外环圆角*/
+    border-radius: 7px;
+}
+
+/* 4.交互的滑块*/
+QSlider::handle:vertical:hover{
+    /*背景色*/
+    background: #b0b0b0;
+    /*滑块宽度*/
+    height: 14px;
+    /*滑块边框*/
+    border: 1px solid #adadad;
+    /*外环圆角*/
+    border-radius: 7px;
+}
+
+/*主窗口样式设计*/
+QMainWindow{
+    /*背景色*/
+    background: #efe4df;
+}
+
+/*控制区域样式设计*/
+QWidget#m_ctrl{
+    background: #ddc6bb;
+    /*圆角*/
+    border-radius: 6px;
+}
+
+/*m_openBtn样式设计*/
+QPushButton#m_openBtn{
+    /*背景色*/
+    background: #c9997f;
+    /*边框阴影*/
+    border-right: 3px solid #bf8768;
+    border-bottom: 3px solid #bf8768;
+    /*圆角*/
+    border-radius: 5px;
+    /*左区域遮挡*/
+    margin-left: 15px;
+}
+
+/*m_openBtn交互设计*/
+QPushButton#m_openBtn:hover{
+    /*背景色*/
+    background: #b06e4a;
+    /*边框阴影*/
+    border-right: 3px solid #9e6343;
+    border-bottom: 3px solid #9e6343;
+}
+
+/*m_playBtn样式设计*/
+QPushButton#m_playBtn{
+    /*背景色*/
+    background: #d6b29e;
+    /*圆角*/
+    border-radius: 36px;
+    /*左区域遮挡*/
+    margin-left: 24px;
+    margin-right: 4px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/*m_playBtn交互设计*/
+QPushButton#m_playBtn:hover{
+    /*背景色*/
+    background: #c9997f;
+}
+
+
+/*QListWidget样式*/
+QListWidget{
+    background: #eeebda;
+    outline: 0px;
+    /*边框*/
+    border-left: 5px inset #d8d2ab;
+    border-top: 5px inset #d8d2ab;
+}
+
+/*列表项样式*/
+QListWidget::item{
+    background: #b5a85e;
+    border: 4px #918f83;
+    color: #ffffff;
+    font: bold "Times New Roman";
+    font-style: italic;
+}
+
+QListWidget::item:hover{
+    background: #cac18c;
+}
+
+QScorllBar{
+    background: #b5a85e;
+}
+
+
+

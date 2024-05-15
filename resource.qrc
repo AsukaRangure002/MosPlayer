@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icon/play.png</file>
+        <file>Icon/pause.png</file>
+        <file>Icon/open.png</file>
+        <file>qss/mainStyle.qss</file>
+        <file>Icon/Icon.jpg</file>
+    </qresource>
+</RCC>
